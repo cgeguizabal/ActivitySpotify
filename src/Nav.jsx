@@ -9,7 +9,7 @@ function Nav() {
         <form>
           <div className="search">
             <span className="search-icon material-symbols-outlined">
-              search
+              search GGGG
             </span>
             <input
               className="search-input"
