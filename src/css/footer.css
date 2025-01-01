@@ -1,0 +1,42 @@
+.footerwrapper {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 5rem;
+}
+
+.footer-Container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 130rem;
+  margin: 1rem auto 3rem auto;
+  padding: 1.5rem;
+}
+
+.footerLine {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1.5rem;
+  color: rgb(50, 50, 50);
+}
+
+.footerLine p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(146, 146, 146);
+}
+
+.footerSocial {
+  display: flex;
+  gap: 3.5rem;
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: rgb(50, 50, 50);
+}
+
+.footerBottom {
+  width: 130rem;
+  height: 0.5px;
+  background-color: rgb(160, 160, 160);
+  margin: 0 auto;
+  border: none;
+}

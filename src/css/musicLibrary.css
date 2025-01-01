@@ -1,0 +1,181 @@
+.music-container {
+  max-width: 130rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  transition: 0.5s;
+}
+
+.music-tittle {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.artistContainer {
+  display: flex;
+  justify-content: center;
+}
+.billboard-List {
+  display: flex;
+
+  gap: 2rem;
+  list-style-type: none;
+  transition: 0.5s;
+}
+
+.monthlyArtist {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  transition: 0.75s;
+}
+
+.artistImage {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 15px rgba(47, 84, 59, 0.216);
+  transition: 0.5s;
+}
+
+.artistImage:hover {
+  cursor: pointer;
+  transform: scale(120%);
+}
+
+.artist {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1d1d1d;
+}
+
+.album {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.numbersongs {
+  margin-bottom: 2rem;
+}
+.player {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 3rem;
+  max-width: 130rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+}
+
+.playerList-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 15px rgba(47, 84, 59, 0.095);
+
+  background-color: #fdfdfe;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.player-List {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.playerListImage {
+  width: 40%;
+  border-radius: 0.5rem;
+}
+
+.imageNum {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: 10rem;
+}
+
+.iconName {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.numberplayerlist {
+  font-size: 1.8rem;
+  color: #1d1d1d;
+}
+
+.iconPlayList {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #b3b2b2;
+}
+
+.playerlistName {
+  font-size: 1.3rem;
+}
+
+.playerListArtist,
+.playerListTime {
+  color: #8f8e8e;
+}
+
+.monthlyImage {
+  width: 100%;
+  border-radius: 30%;
+  transition: 0.3s;
+  box-shadow: 25px 2px 40px #2d4d3730;
+}
+
+.monthlyImage:hover {
+  cursor: pointer;
+  transform: scale(130%);
+}
+
+.monthlyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.montlyArtist {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.genresList {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  transition: 0.5s;
+}
+
+.genres {
+  margin-top: 2rem;
+}
+
+.genreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.genreImage {
+  width: 100%;
+  border-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 25px 2px 40px #2d4d3744;
+}
+
+.genreImage:hover {
+  cursor: pointer;
+  transform: scale(130%);
+}
