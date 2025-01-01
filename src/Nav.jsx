@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav className="nav-Bar">
       <div className="nav-left">
-        <img src="/public/assets/logo1.png" alt="logo" className="nav-logo" />
+        <img src="/assets/logo1.png" alt="logo" className="nav-logo" />
         <form>
           <div className="search">
             <span className="search-icon material-symbols-outlined">
