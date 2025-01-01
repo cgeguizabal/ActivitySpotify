@@ -14,7 +14,7 @@ function SignUpForm() {
     <>
       <div className="fromContainer">
         <div className="formLogoContainer">
-          <img className="formLogo" src="./src/assets/logo2.webp" alt="logo" />
+          <img className="formLogo" src="/assets/logo2.webp" alt="logo" />
         </div>
         <h1 className="formTitle">Sign Up Now to Start Listening</h1>
         <form className="formWrapper" onSubmit={handleSubmit(onSubmit)}>
