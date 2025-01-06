@@ -15,8 +15,7 @@ function App() {
         {/* Sign up page */}
         <Route path="/signup" element={<SignUpForm />} />
 
-        {/* You can optionally add other routes for specific song details */}
-        {/* <Route path="/songs/:id" element={<SongDetails />} /> */}
+        
       </Routes>
     </Router>
   );
